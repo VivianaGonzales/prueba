@@ -15,7 +15,7 @@ const userController = {
     prueba (req, res) {
         const user = {
             id: "123456789",
-            name: "Viviana",
+            name: "Viviana Gonzales",
             age: 23
         }
         req.session.user = user
